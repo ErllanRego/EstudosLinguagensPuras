@@ -1,0 +1,14 @@
+-----Criando tabela básica----
+CREATE TABLE dados(
+    id int AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    nome varchar(895),
+    telefone varchar(11) UNIQUE,
+    descricao longtext );
+
+----INSERIR DADOS----
+INSERT INTO `dados` (
+    `id`, `nome`, `telefone`, `descricao`
+    ) 
+VALUES(
+    '1', 'John Doe', '40028922', 'Descrição legal meu caro!'
+    );
