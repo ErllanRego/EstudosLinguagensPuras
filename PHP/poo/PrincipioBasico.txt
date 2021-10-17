@@ -1,0 +1,5 @@
+Exemplo:
+	Classe->fruta
+	Objeto->Banana,
+		Maça,
+		Pera
