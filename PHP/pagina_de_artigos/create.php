@@ -3,6 +3,8 @@
 ?>
 <section>
     <form action="">
+        <label for="image">Imagem</label>
+        <input type="file" id="image" name="image">
         <label for="title">
             Nome da receita
             <input type="text" name="title" value="">
