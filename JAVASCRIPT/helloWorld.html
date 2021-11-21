@@ -5,11 +5,17 @@
     </head>
     <body>
         <h1></h1>
-        <p>Este parágrafo foi escrito por um humano</p>
+        <p id="paragraph">Este parágrafo foi escrito por um humano</p>
+        <button id="button" type="button" onclick="change_paragraph" >Mudar</button>
+
         <script>
             alert("Hello World");
             const title = document.querySelector('h1');
             title.textContent = 'Hello world!';
+
+            function change_paragraph(){
+               document.getElementById("button").innerHTML = "Mudado por javascript";
+            }
         </script>
     </body>
 </html>
